@@ -3,8 +3,7 @@ import layout from '../templates/components/bread-crumb';
 import computed from 'ember-new-computed';
 
 const {
-  Component,
-  computed
+  Component
 } = Ember;
 const {
   oneWay,
