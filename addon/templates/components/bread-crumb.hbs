@@ -3,13 +3,13 @@
     {{#if hasBlock}}
       {{yield this route}}
     {{else}}
-      {{route.title}}
+      {{i18nTitle}}
     {{/if}}
   {{/link-to}}
 {{else}}
   {{#if hasBlock}}
     {{yield this route}}
   {{else}}
-    {{route.title}}
+    {{i18nTitle}}
   {{/if}}
 {{/if}}
